@@ -6,7 +6,7 @@ namespace DesignPatterns.Structural {
     public class Lights {
         public void TurnOn() => System.Console.WriteLine("Lights on");
     }
-    public class CarFacade {
+    public class FacadeCar {
         private Engine _engine = new Engine();
         private Lights _lights = new Lights();
         public void StartCar() {

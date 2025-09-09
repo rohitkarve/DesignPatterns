@@ -13,9 +13,9 @@ namespace DesignPatterns.Behavioral {
             System.Console.WriteLine("Sport driving mode");
         }
     }
-    public class Car {
+    public class StrategyCar {
         private IDriveStrategy _strategy;
-        public Car(IDriveStrategy strategy) {
+        public StrategyCar(IDriveStrategy strategy) {
             _strategy = strategy;
         }
         public void PerformDrive() {

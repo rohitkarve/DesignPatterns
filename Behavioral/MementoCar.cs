@@ -6,9 +6,9 @@ namespace DesignPatterns.Behavioral {
             State = state;
         }
     }
-    public class Car {
-        public string State { get; set; }
-        public CarMemento SaveState() => new CarMemento(State);
+    public class MementoCar {
+    public string? State { get; set; }
+    public CarMemento SaveState() => new CarMemento(State ?? string.Empty);
         public void RestoreState(CarMemento memento) {
             State = memento.State;
         }
