@@ -41,7 +41,16 @@ This repository demonstrates 23 classic software design patterns, each implement
 ---
 Created: 9 September 2025
 ## Pattern Overview
+This section provides a high-level explanation of the different pattern categories:
 
+### Creational Patterns
+Creational patterns focus on object creation mechanisms, providing flexibility in what gets created, how it's created, and who creates it. In our car context, these patterns help manage how different types of cars and their components are instantiated.
+
+### Structural Patterns
+Structural patterns deal with object composition, creating relationships between objects to form larger structures. These patterns help define how car parts and systems connect and interact with each other in flexible ways.
+
+### Behavioral Patterns
+Behavioral patterns focus on communication between objects, defining how objects distribute responsibility and interact. These patterns help manage complex operations in a car's systems, from engine control to driver interaction.
 The table below summarizes all 23 patterns by category:
 
 | Category | Patterns |
@@ -50,5 +59,10 @@ The table below summarizes all 23 patterns by category:
 | **Structural** | Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy |
 | **Behavioral** | Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor |
 
+
+
 ## License
 MIT License. See LICENSE file for details.
+git checkout -b main
+git push -u origin main
+
