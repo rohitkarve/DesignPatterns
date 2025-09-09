@@ -1,0 +1,39 @@
+# .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Other
+*.vspscc
+*.vssscc
+
+# NuGet packages
+*.nupkg
+# Backup & temp files
+*.bak
+*.tmp
+~$*
+
+# Rider
+.idea/
+*.iml
+
+# Test results
+TestResults/
+
+# Resharper
+_ReSharper*/
