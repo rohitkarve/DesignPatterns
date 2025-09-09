@@ -40,3 +40,15 @@ This repository demonstrates 23 classic software design patterns, each implement
 
 ---
 Created: 9 September 2025
+## Pattern Overview
+
+The table below summarizes all 23 patterns by category:
+
+| Category | Patterns |
+|----------|----------|
+| **Creational** | Singleton, Factory Method, Abstract Factory, Builder, Prototype |
+| **Structural** | Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy |
+| **Behavioral** | Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor |
+
+## License
+MIT License. See LICENSE file for details.
