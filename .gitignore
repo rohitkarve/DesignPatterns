@@ -1,0 +1,25 @@
+# .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Build results
+*.dll
+*.exe
+
+# Others
+*.log
+*.vs/
